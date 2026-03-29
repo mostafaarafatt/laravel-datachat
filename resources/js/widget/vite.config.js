@@ -14,7 +14,8 @@ export default defineConfig({
             external: [],
             output: {
                 globals: {},
-                assetFileNames: 'datachat-widget.[ext]'
+                assetFileNames: 'datachat-widget.[ext]',
+                entryFileNames: 'datachat-widget.umd.js' // ✅ هنا تحدد اسم الملف النهائي
             }
         },
         outDir: '../../../public',
