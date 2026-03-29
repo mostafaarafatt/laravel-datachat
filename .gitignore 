@@ -1,0 +1,39 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build outputs
+/public/*.js
+/public/*.css
+/public/*.map
+/dist/
+/build/
+
+# IDE
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+/storage/*.key
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Tests
+/coverage/
+/.phpunit.cache
+
+# Package manager
+package-lock.json
+yarn.lock
+composer.lock

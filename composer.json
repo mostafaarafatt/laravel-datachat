@@ -1,0 +1,44 @@
+{
+  "name": "mostafaarafat/laravel-datachat",
+  "description": "AI-powered chat widget for Laravel databases - embed conversational analytics in your app",
+  "keywords": ["laravel", "ai", "chatbot", "analytics", "database", "widget"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mostafa Arafat Amin",
+      "email": "mostafaarafat199@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0|^8.1|^8.2|^8.3|^8.4|^8.5",
+    "illuminate/support": "^8.0|^8.1|^8.2|^8.3|^8.4|^8.5|^9.0|^10.0|^11.0",
+    "illuminate/database": "^8.0|^8.1|^8.2|^8.3|^8.4|^8.5|^9.0|^10.0|^11.0",
+    "illuminate/http": "^8.0|^8.1|^8.2|^8.3|^8.4|^8.5|^9.0|^10.0|^11.0",
+    "mostafaarafat/laravel-ai-database": "^1.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0",
+    "phpunit/phpunit": "^10.0",
+    "mockery/mockery": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mostafaarafat\\DataChat\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mostafaarafat\\DataChat\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mostafaarafat\\DataChat\\DataChatServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
